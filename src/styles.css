@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
 *{
-    box-sizing: border-box;
     margin: 0;
-    padding:0;
 }
+
 body{
-    font-family: 'Permanent Marker', cursive;
+    font-family:'permanent marker';
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 2rem;
 }
 
  /* NAVBAR */
@@ -88,3 +95,38 @@ body{
         color: rgba(255, 255, 255, 1);
     }
 }
+
+/* LANDING-PAGE */
+
+#color-name{
+    color: rgb(255, 165, 0);
+}
+
+.landing{
+    width: auto;
+    height: 100vh;
+    background-image: url("images/landing.jpg");
+    background-size: cover;
+}
+
+.page-content{
+    text-shadow: 1px 1px 2px black;
+    color: #fff;
+    text-align: right;
+    padding: 15rem 5rem 0 0;
+}
+
+.btn{
+    text-decoration: none;    
+    color: white;
+    border-radius: 4px;
+    padding: .7rem;
+    background: #000
+}
+
+
+
+
+
+
+
