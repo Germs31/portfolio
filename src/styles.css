@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     height: 100%;
     font-family:'permanent marker';
@@ -315,13 +319,15 @@ h3{
     text-align: center;
 }
 
-.project-info{
-    display: flex;
-    position: relative;
-    z-index: 1;
-    margin-top: 3.5rem;
-    max-width: 900px;
-    text-align: center;
+.project-card img{
+    width: 250px;
+    height: 250px;
+}
+.project-card{
+    background-color: #fff; 
+    margin: 3%;
+    padding: 3%;
+    border: 1px solid;
 }
 
 
