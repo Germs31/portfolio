@@ -99,7 +99,7 @@ h3{
     }
     .logo:hover,
     .nav-link:hover {
-        color: rgba(255, 255, 255, 1);
+        color: maroon;
     }
 }
 
@@ -256,7 +256,20 @@ h3{
     z-index: 1;
     margin-top: 3.5rem;
     max-width: 900px;
+    text-align: left;
+}
+.about-me-content p{
+    font-size: 1.5rem;
+}
+.about-me-content h1{
     text-align: center;
+}
+
+@media screen and (max-width: 820px){
+    .about-me-content p{
+        font-size: 1rem;
+        margin: 2%;
+    }
 }
 
 
@@ -284,6 +297,34 @@ h3{
     border-radius:  0 0 50% 50% /  0 0 100% 100%;
     z-index: -1;
 }
+
+.project-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.project-content{
+    position: relative;
+    z-index: 1;
+    margin-top: 3.5rem;
+    max-width: 900px;
+    text-align: center;
+}
+
+.project-info{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-top: 3.5rem;
+    max-width: 900px;
+    text-align: center;
+}
+
+
 
 /* CONTACT */
 
