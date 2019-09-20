@@ -1,3 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
 
+body{
+    margin: 0;
+    font-family:'Varela', sans-serif;
+    background-color: #233237; 
+}
+
+/* NavBar */
+.nav{
+    background-color: #233237; 
+}
+
+.nav-link{
+    color: #EAC67A;
+}
+
+.nav-link:hover{
+    color: #984B43;
+}
+/* Landing */
+
+.landing{
+    background-color: #233237;
+    color: #EAC67A;
+    font-family: 'Permanent Marker', cursive;
+    height: 500px;
+    font-size: .5rem;
+}
+
+.landing-content{
+    margin: 200px 250px 0 0;
+    text-align: right;
+}
+.landing-content h3{
+    font-size: 2rem;
+}
+
+#color-name{
+    font-size: 6rem;
+    color: #984B43;
+}
+
+@media only screen and (max-width: 900px){
+    .landing-content{
+        margin: 200px 0;
+        text-align: center;
+
+    }
+    #color-name{
+        font-size: 4rem;
+        color: #984B43;
+    }
+}
