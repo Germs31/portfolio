@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family:'Varela', sans-serif;
@@ -30,7 +34,7 @@ body{
 }
 
 .landing-content{
-    margin: 200px 250px 0 0;
+    margin: 200px 100px 0 0;
     text-align: right;
 }
 .landing-content h3{
@@ -39,7 +43,7 @@ body{
 
 #color-name{
     font-size: 6rem;
-    color: #984B43;
+    color: #c53211;
 }
 
 @media only screen and (max-width: 900px){
@@ -53,3 +57,49 @@ body{
         color: #984B43;
     }
 }
+
+/* skills */
+
+.skills{
+    background-color: #EAC67A;
+    color: #233237;
+    height: 800px;
+    
+}
+
+.skill-content{
+    margin: 10% 5% 10% 5%;
+    
+}
+
+.skill-content i {
+    font-size: 4rem;
+    color: #c53211;
+}
+.skill-content h3 {
+    margin-bottom: 3%;
+    border-bottom: #984B43 solid;
+}
+.skills h1{
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 900px){
+    .skills h1{
+        font-size: 3rem;
+    }
+    .skill-content p{
+        font-size: .1rem;
+    }
+    .skill-content h3{
+        font-size: 1.5rem;
+    }
+
+    .skill-content i {
+        font-size: 2.5rem;
+        
+    }
+}
+
+
+
