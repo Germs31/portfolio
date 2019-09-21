@@ -23,6 +23,12 @@ body{
 .nav-link:hover{
     color: #984B43;
 }
+
+@media only screen and (max-width: 900px){
+    .nav-link{
+        font-size: .5rem;
+    }
+}
 /* Landing */
 
 .landing{
@@ -63,12 +69,12 @@ body{
 .skills{
     background-color: #EAC67A;
     color: #233237;
-    height: 800px;
+    height: 750px;
     
 }
 
 .skill-content{
-    margin: 10% 5% 10% 5%;
+    margin: 5% 5% 10% 5%;
     
 }
 
@@ -77,19 +83,22 @@ body{
     color: #c53211;
 }
 .skill-content h3 {
+    font-family: 'Permanent Marker', cursive;
     margin-bottom: 3%;
     border-bottom: #984B43 solid;
 }
 .skills h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
     padding-top: 5%;
 }
 
 @media only screen and (max-width: 900px){
     .skills h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .skill-content p{
-        font-size: .1rem;
+        font-size: .62rem;
     }
     .skill-content h3{
         font-size: 1.5rem;
@@ -99,7 +108,66 @@ body{
         font-size: 2.5rem;
         
     }
+
+    .skills{
+        height: 1000px; 
+    }
 }
 
 
+/* About Me */
+
+.about-me{
+    background-color: #984B43;
+    color: #192428;
+    height: 800px;
+}
+
+.about-me-content img{
+    width:70%;
+    height:90%;
+    border-radius:5%;
+}
+
+.about-me h1{
+    font-family: 'Permanent Marker', cursive;
+    padding: 3% 0 5%;
+}
+.about-me-content h3{
+    font-size: 5rem;
+}
+.about-me-content p{
+    font-size: 5rem;
+}
+
+@media only screen and (max-width: 900px){
+    .about-me-content img{
+        width:70%;
+        height:70%;
+        border-radius:5%;
+    }
+    .about-me-content h3{
+        font-size: 1.5rem;
+    }
+    .about-me-content p{
+        font-size: 1rem;
+    }
+}
+
+/* projects */
+
+.projects{
+    background-color: #192428;
+    color: #EAC67A;
+    height: 1600px;
+}
+
+.project-content{
+    padding: 10%;
+}
+
+.project-content img{
+    width: 90%;
+    height: 90%;
+}
 
