@@ -11,6 +11,8 @@ body{
     background-color: #233237; 
 }
 
+
+
 /* NavBar */
 .nav{
     background-color: #233237; 
@@ -24,27 +26,38 @@ body{
     color: #984B43;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
     .nav-link{
-        font-size: .5rem;
+        font-size: .7rem;
     }
 }
+
 /* Landing */
 
 .landing{
     background-color: #233237;
     color: #EAC67A;
     font-family: 'Permanent Marker', cursive;
-    height: 500px;
+    height: 100%;
     font-size: .5rem;
+    margin-bottom: 20%;
 }
 
 .landing-content{
     margin: 200px 100px 0 0;
     text-align: right;
 }
+
 .landing-content h3{
     font-size: 2rem;
+}
+
+.landing-content a{
+    background-color: #192428;
+    color: #fff;
+}
+.landing-content a:hover{
+    color: #c53211;
 }
 
 #color-name{
@@ -54,28 +67,29 @@ body{
 
 @media only screen and (max-width: 900px){
     .landing-content{
-        margin: 200px 0;
+        margin: 100px 20px;
         text-align: center;
 
     }
     #color-name{
-        font-size: 4rem;
-        color: #984B43;
+        font-size: 3.5rem;
     }
-}
+} 
 
 /* skills */
 
 .skills{
     background-color: #EAC67A;
     color: #233237;
-    height: 750px;
-    
+    height: 100%;
+    padding: 5%;
 }
 
 .skill-content{
     margin: 5% 5% 10% 5%;
-    
+    font-size:1.3rem;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 .skill-content i {
@@ -85,34 +99,41 @@ body{
 .skill-content h3 {
     font-family: 'Permanent Marker', cursive;
     margin-bottom: 3%;
-    border-bottom: #984B43 solid;
 }
+
 .skills h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 5rem;
     padding-top: 5%;
 }
 
-@media only screen and (max-width: 900px){
+.skills .underline{
+    border-radius: 50%;
+    background-color: #984B43;
+    width: 3rem;
+    height: .3rem;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 1200px){
     .skills h1{
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
     .skill-content p{
-        font-size: .62rem;
+        font-size: 1rem;
     }
     .skill-content h3{
         font-size: 1.5rem;
     }
 
     .skill-content i {
-        font-size: 2.5rem;
+        font-size: 4rem;
         
     }
-
-    .skills{
-        height: 1000px; 
-    }
 }
+
+
 
 
 /* About Me */
@@ -120,7 +141,9 @@ body{
 .about-me{
     background-color: #984B43;
     color: #192428;
-    height: 800px;
+    height: 100%;
+    padding: 4%;
+
 }
 
 .about-me-content img{
@@ -130,30 +153,39 @@ body{
 }
 
 .about-me h1{
+    padding-bottom: 4%;
     font-size: 4rem;
     font-family: 'Permanent Marker', cursive;
-    padding: 3% 0 5%;
+
 }
-.about-me-content h3{
-    font-size: 5rem;
-}
-.about-me-content p{
-    font-size: 5rem;
+.about-me-content h3{ 
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
 }
 
-@media only screen and (max-width: 900px){
-    .about-me-content img{
-        width:70%;
-        height:70%;
-        border-radius:5%;
-    }
-    .about-me-content h3{
-        font-size: 1.5rem;
-    }
-    .about-me-content p{
-        font-size: 1rem;
-    }
+.about-me .underline{
+    border-radius: 50%;
+    background-color: #192428;
+    width: 3rem;
+    height: .3rem;
+    margin: 0 auto;
 }
+
+.about-me-content a{
+    padding: 2%;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #EAC67A;
+    color: #233237;
+}
+.about-me-content a:hover{
+    color: #fff;
+    background-color: #EAC67A;
+}
+.about-me-content p{
+    text-align: left;
+    font-size: 1.3rem;
+}
+
 
 /* projects */
 
@@ -161,12 +193,17 @@ body{
     padding: 2%;
     background-color: #192428;
     color: #EAC67A;
-    height: 1600px;
+    height: 500%;
 }
 
 .project-content{
     padding: 2%;
 }
+
+.project-content h3{
+    border-bottom: 1px solid #c53211;
+}
+
 .project-content h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 4rem;
@@ -176,6 +213,18 @@ body{
 .project-content img{
     width: 90%;
     height: 90%;
+}
+
+.project-content a{
+    margin: 1em auto 2em; 
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1rem;
+    background-color: #c53211;
+    color: #fff;
+}
+
+.project-content a:hover{
+    color: #000;
 }
 
 
@@ -189,11 +238,24 @@ body{
 
 .contact-content a{
     font-size: 1rem;
+}
+
+.contact-content a:hover{
+    color: #EAC67A;
+}
+
+.email{
+    margin: 2%;
     background-color: #c53211;
 }
+
 .contact-content i{
+    margin: 2%;
     font-size: 3rem;
     color: #c53211;
+}
+.contact-content i:hover{
+    color: #EAC67A;
 }
 
 
