@@ -1,0 +1,40 @@
+/* global */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size: 10px;
+        color: #2e3830;
+    }
+
+    body{
+        width: 100%;
+        height: 100%;
+        background: #c53211
+
+    }
+
+    a{
+        text-decoration: none;
+        color: #2e3830;
+    }
+
+    p{
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+
+    img{
+        width: 100%;
+    }
+/* reusable */
+/* header */
+/* about */
+/* services */
+/* portfolio */
+/* experience */
+/* contact */
+/* footer */
