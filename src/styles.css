@@ -6,9 +6,9 @@ body{
 }
 
 .landing{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
-    background-color: #1a1a1d;
+    background: #1a1a1d;
     position: relative;
     display: flex;
 }
@@ -25,10 +25,13 @@ button{
 
 .landing-text{
     color: #c3073f;
-    font-size: 3rem;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     margin: auto;
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(#f12711, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .services{
@@ -64,6 +67,10 @@ button{
     }
     .landing-text h3{
         font-size: 2rem;
+    }
+
+    .landing-text p{
+        font-size: .8rem;
     }
 
     .services:before{
