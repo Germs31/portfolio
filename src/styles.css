@@ -33,11 +33,9 @@ p{
 
 img{
     width: 100%;
+    image-orientation: from-image;
 }
 
-#selfie{
-    transform: rotate(90deg);
-}
 
 /* Reusable */
 
@@ -510,9 +508,6 @@ input[type="submit"]:hover{
 /* Media Queries */
 
 @media screen and (max-width: 768px){
-    #selfie{
-        transform: rotate(90deg);
-    }
     .landing-text h1{
         font-size: 15rem;
     }
@@ -572,9 +567,6 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width: 600px){
-    #selfie{
-        transform: rotate(90deg);
-    }
     .menu-toggler{
         top: 2rem;
         right: 2rem;
