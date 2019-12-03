@@ -210,6 +210,9 @@ li{
     font-family: 'Permanent Marker', sans-serif;
     /* background: linear-gradient(to top, #ffe838, #fd57bf); */
     background: #c1432e;
+    /* text-shadow: -10px 10px 0px #c1432e,
+                 -30px 40px 0px #ce9e62,
+                 -60px 90px 0px #4b6777; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* padding: 1rem; */
@@ -220,8 +223,6 @@ li{
     font-size: 3rem;
     letter-spacing: 2rem;
     color: #ce9e62;
-    /* font-family: 'Permanent Marker', sans-serif; */
-    /* font-weight: 900; */
 }
 
 /* About */
@@ -509,11 +510,9 @@ input[type="submit"]:hover{
 /* Media Queries */
 
 @media screen and (max-width: 768px){
-    /* body{
-        width: 100%;
-        height: 100%;
-        background: #272727;
-    } */
+    #selfie{
+        transform: rotate(90deg);
+    }
     .landing-text h1{
         font-size: 15rem;
     }
@@ -573,6 +572,9 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width: 600px){
+    #selfie{
+        transform: rotate(90deg);
+    }
     .menu-toggler{
         top: 2rem;
         right: 2rem;
