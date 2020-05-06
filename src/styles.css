@@ -508,12 +508,16 @@ input[type="submit"]:hover{
 /* Media Queries */
 
 @media screen and (max-width: 768px){
+    .remove-on-mobile{
+        display: none;
+    }
     .landing-text h1{
         font-size: 15rem;
     }
 
     .landing-text h6{
-        font-size: 1.7rem
+        font-size: 1.7rem;
+        letter-spacing: .8rem;
     }
 
     .nav-list{
@@ -577,7 +581,7 @@ input[type="submit"]:hover{
     }
 
     .landing-text h1{
-        font-size:8rem;
+        font-size: 7rem;
     }
 
     .landing-text h6{
